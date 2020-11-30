@@ -8,15 +8,15 @@
   background: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity $time-functiom;
-}
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.9);
+  &.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
 }
 
 .modal {
@@ -48,38 +48,37 @@
   border-radius: 50%;
   height: 32.5px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-}
 
-.close-button:hover svg {
-  fill: #2196F3;
-}
+  &:hover svg {
+    fill: #2196F3;
+  }
 
-.close-button:focus {
-  fill: #2196F3;
+  &:focus {
+    fill: #2196F3;
+  }
 }
 
 .label-box {
   display: block;
   margin-bottom: 10px;
-}
 
-.label-box textarea {
-  width: 100%;
-  border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  padding: 12px 16px;
-  height: 120px;
-}
+  textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    padding: 12px 16px;
+    height: 120px;
+  }
 
-.label-box.textarea {
-  margin-bottom: 20px;
-}
+  &.textarea {
+    margin-bottom: 20px;
+  }
 
-.label-box textarea:focus {
-  outline: none;
-  border-color: $activ-text-color;
+  textarea:focus {
+    outline: none;
+    border-color: $activ-text-color;
+  }
 }
-
 .checkbox-link {
   color: $activ-text-color;
 }
@@ -90,15 +89,15 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   height: 40px;
   padding-left: 42px;
-}
 
-.label-box input:focus {
-  outline: none;
-  border-color: $activ-text-color;
-}
+  &:focus {
+    outline: none;
+    border-color: $activ-text-color;
+  }
 
-.label-box input:focus + svg {
-  fill: #2196F3;
+  &:focus + svg {
+    fill: #2196F3;
+  }
 }
 
 .label-checkbox .checkbox-text {

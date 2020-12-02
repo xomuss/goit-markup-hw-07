@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  color: "$primary-text-color";
+  color: #212121;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -73,9 +73,6 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .site-info .item:hover {
-fill: $activ-text-color;
-} */
 .site-info .item + .item {
   margin-left: 50px;
 }
@@ -372,8 +369,7 @@ fill: $activ-text-color;
   fill: #AFB1B8;
 }
 
-.sn-icon .logo:hover,
-.sn-icon .logo:focus {
+.sn-icon .logo:hover, .sn-icon .logo:focus {
   fill: #ffffff;
 }
 
@@ -642,8 +638,7 @@ fill: $activ-text-color;
   padding-right: 24px;
 }
 
-.works.list .item:hover,
-.works.list .item:focus {
+.works.list .item:hover, .works.list .item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -854,8 +849,7 @@ fill: $activ-text-color;
   height: 50px;
 }
 
-.form-box .button:focus,
-.form-box .button:hover {
+.form-box .button:focus, .form-box .button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
